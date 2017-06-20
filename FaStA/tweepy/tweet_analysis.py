@@ -14,6 +14,8 @@ today = date.today()
 
 count = 1
 
+#TODO: Make this more functional so we can get sentiment analysis by users last few tweets. Turn this into a "what type of tweeter are you website or something like that
+
 fields = ['Number', 'Tweet Text', 'Negative Score', 'Positive Score', 'Retweet Count', 'Like Count']
 
 print("Now gathering tweet data for %s..." % screen_name)
